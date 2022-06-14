@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.datademo.mapper.ImportInstanceMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.datademo.dao.ImportInstanceDao">
+        <id column="id" property="id" />
+        <result column="data_type" property="dataType" />
+        <result column="tenant_id" property="tenantId" />
+        <result column="plan_status" property="planStatus" />
+        <result column="formation" property="formation" />
+        <result column="update_time" property="updateTime" />
+        <result column="create_user" property="createUser" />
+        <result column="update_user" property="updateUser" />
+        <result column="is_delete" property="isDelete" />
+        <result column="create_time" property="createTime" />
+    </resultMap>
+
+</mapper>
